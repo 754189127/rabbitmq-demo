@@ -36,7 +36,6 @@ public class ConsumerError {
                 System.out.println("Accept:"+envelope.getRoutingKey()+":"+message);
             }
         };
-
         channel.basicConsume(queueName,true,consumerB);
     }
 

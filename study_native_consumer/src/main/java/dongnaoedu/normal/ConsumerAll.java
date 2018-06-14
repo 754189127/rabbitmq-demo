@@ -42,6 +42,5 @@ public class ConsumerAll {
         };
 
         channel.basicConsume(queueName,true,consumerA);
-
     }
 }
